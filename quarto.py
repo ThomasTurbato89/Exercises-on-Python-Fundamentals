@@ -33,10 +33,7 @@ for i in range(1001):
         l_dispari.append(i)
 print("Lista numeri pari: ", l_pari)
 print("Lista numeri dispari: ", l_dispari)
-l_tot = []
-for i in range(501):
-    l_tot.append(l_pari[i])
-
+l_tot = l_pari
 for i in range(500):
     l_tot.append(l_dispari[i])
 
